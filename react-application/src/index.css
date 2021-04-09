@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fefefe;
+  background-color: #181818;
+  font-family: "Poppins", "Roboto", "Opens Sans", "Arial";
+}
+
+header {
+  padding: 1em 0;
+}
+
+.title {
+  color: #fefefe;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.example-song {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#paper {
+  background-color: #fefefe;
+}
+
+.abcjs-css-warning {
+  display: none;
+}
