@@ -14,8 +14,6 @@ const SongInfo = () => {
             + "g2fg ebab|gdfA d2ed|cAeB AFEG|Aed^c d3:|!\n"
             + "BdB|eAA2 BAGA|B2dB GBdB|cABG AGEG|BAGF D2:|!\n";
 
-    const [song, setSong] = useState(abc);
-
     const newLineBreak = text => {
         return text.split('\n').map(function (line) {
             return (<p>{line}</p>);
@@ -24,21 +22,23 @@ const SongInfo = () => {
 
     useEffect(() => {
         // First draw the music - this supplies an object that has a lot of information about how to create the synth.
-        var visualObj = abcjs.renderAbc("paper", abc, {responsive: "resize" })[0];
+        var visualObj = abcjs.renderAbc('paper', abc, {responsive: 'resize' })[0];
         
-        abcjs.renderMidi("media-player", song, { });
+        abcjs.renderMidi('media-player', abc, { });
 
-        abcjs.midi.setLoop(document.querySelector(".abcjs-inline-midi"), true);
+        abcjs.midi.setLoop(document.querySelector('.abcjs-inline-midi'), true);
     }, [])
 
     return (
         <>
-            <div id='media-player'>Media Player</div>
+            <div className='player'>
+                <div id='media-player'>Media Player</div>
+            </div>
             <div className='song-abc'>
-                {newLineBreak(song)}
+                {newLineBreak(abc)}
             </div>
             <div>
-                <div id="paper"></div>
+                <div id='paper'></div>
             </div>
         </>
     )

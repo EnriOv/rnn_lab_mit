@@ -1,6 +1,9 @@
+import { useState } from 'react' 
 import SongInfo from "./SongInfo"
 
 const Generator = () => {
+    const [song, setSong] = useState('');
+
     return (
         <>
             <div className='generator-container'>
