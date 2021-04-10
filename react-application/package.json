@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "abcjs": "^5.12.0"
+    "abcjs": "^5.12.0",
+    "font-awesome": "^4.7.0"
   }
 }

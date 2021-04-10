@@ -6,8 +6,8 @@
 
 body {
   color: #fefefe;
-  background-color: #181818;
-  font-family: "Poppins", "Roboto", "Opens Sans", "Arial";
+  background-color: #212429;
+  font-family: "Poppins", "Roboto", "Open Sans", "Arial";
 }
 
 header {
@@ -15,16 +15,47 @@ header {
 }
 
 .title {
-  color: #fefefe;
+  color: #c9d4da;
   text-align: center;
   font-size: 1.5rem;
 }
 
-.example-song {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 1rem;
+.generator-container {
+  padding: 1.3em;
+  background-color: #384d55;
+  font-family: "Open Sans", "Poppins", "Roboto", "Arial";
+}
+
+.btn {
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-family: "Poppins", "Open Sans", "Roboto", "Arial";
+}
+
+.generate-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate-btn {
+  color: #fefefe;
+  background-color: #3ea6ff;
+  margin: 0;
+  padding: 0.5em 1em;
+  border-radius: 5px;
   text-align: center;
+}
+
+.song-abc {
+  color: #fefefe;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #d8dcdd;
+  margin: 1em;
+  padding: 0.5em;
 }
 
 #paper {
