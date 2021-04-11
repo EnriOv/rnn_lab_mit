@@ -21,7 +21,7 @@ const SongInfo = () => {
     }
 
     useEffect(() => {
-        // First draw the music - this supplies an object that has a lot of information about how to create the synth.
+        // Draw the music - this supplies an object that has a lot of information about how to create the synth.
         var visualObj = abcjs.renderAbc('paper', abc, {responsive: 'resize' })[0];
         
         abcjs.renderMidi('media-player', abc, { });
