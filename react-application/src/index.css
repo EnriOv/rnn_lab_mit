@@ -60,6 +60,7 @@ header {
   border: 2px solid #d8dcdd;
   margin: 0 1em 1em 1em;
   padding: 0.5em;
+  white-space: pre-wrap;
 }
 
 #paper {
