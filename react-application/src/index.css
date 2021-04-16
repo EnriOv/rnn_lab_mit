@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fefefe;
+  background-color: #212429;
+  font-family: "Poppins", "Roboto", "Open Sans", "Arial";
+}
+
+header {
+  padding: 1em 0;
+}
+
+.title {
+  color: #c9d4da;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.generator-container {
+  padding: 1.3em;
+  background-color: #384d55;
+  font-family: "Open Sans", "Poppins", "Roboto", "Arial";
+}
+
+.btn {
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-family: "Poppins", "Open Sans", "Roboto", "Arial";
+}
+
+.generate-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate-btn {
+  color: #fefefe;
+  background-color: #3ea6ff;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.player {
+  padding: 1em;
+}
+
+.song-abc {
+  color: #fefefe;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #d8dcdd;
+  margin: 0 1em 1em 1em;
+  padding: 0.5em;
+  white-space: pre-wrap;
+}
+
+#paper {
+  background-color: #fefefe;
+}
+
+.abcjs-css-warning {
+  display: none;
+}
