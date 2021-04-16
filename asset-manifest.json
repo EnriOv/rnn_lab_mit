@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rnn_lab_mit/static/css/main.6cee4dd8.chunk.css",
+    "main.js": "/rnn_lab_mit/static/js/main.62e6d96c.chunk.js",
+    "main.js.map": "/rnn_lab_mit/static/js/main.62e6d96c.chunk.js.map",
+    "runtime-main.js": "/rnn_lab_mit/static/js/runtime-main.a82e52aa.js",
+    "runtime-main.js.map": "/rnn_lab_mit/static/js/runtime-main.a82e52aa.js.map",
+    "static/css/2.8ee0860b.chunk.css": "/rnn_lab_mit/static/css/2.8ee0860b.chunk.css",
+    "static/js/2.8affd8c8.chunk.js": "/rnn_lab_mit/static/js/2.8affd8c8.chunk.js",
+    "static/js/2.8affd8c8.chunk.js.map": "/rnn_lab_mit/static/js/2.8affd8c8.chunk.js.map",
+    "static/js/3.ec2fea5f.chunk.js": "/rnn_lab_mit/static/js/3.ec2fea5f.chunk.js",
+    "static/js/3.ec2fea5f.chunk.js.map": "/rnn_lab_mit/static/js/3.ec2fea5f.chunk.js.map",
+    "index.html": "/rnn_lab_mit/index.html",
+    "static/css/2.8ee0860b.chunk.css.map": "/rnn_lab_mit/static/css/2.8ee0860b.chunk.css.map",
+    "static/css/main.6cee4dd8.chunk.css.map": "/rnn_lab_mit/static/css/main.6cee4dd8.chunk.css.map",
+    "static/js/2.8affd8c8.chunk.js.LICENSE.txt": "/rnn_lab_mit/static/js/2.8affd8c8.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/rnn_lab_mit/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a82e52aa.js",
+    "static/css/2.8ee0860b.chunk.css",
+    "static/js/2.8affd8c8.chunk.js",
+    "static/css/main.6cee4dd8.chunk.css",
+    "static/js/main.62e6d96c.chunk.js"
+  ]
+}
